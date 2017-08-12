@@ -6,8 +6,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<title>Workshop GIT - GITHUB</title>
-	<link rel="stylesheet" href="css/bootstrap-4/css/bootstrap.css">
-	<link rel="stylesheet" href="css/custom.css">
+	<link rel="stylesheet" href="assets/css/bootstrap-4/css/bootstrap.css">
+	<link rel="stylesheet" href="assets/css/custom.css">
+	<link rel="shortcut icon" type="image/png" href="assets/img/favicon.png"/>
+	<!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="assets/swipe/dist/css/swiper.min.css">
 </head>
 
 <body id="home" data-spy="scroll" data-target=".navbar" data-offset="100">
@@ -18,9 +21,9 @@
 			<span class="navbar-toggler-icon"></span>
 			</button>
 
-			<a class="navbar-brand" href="#">
-			<img src="/assets/brand/bootstrap-solid.svg" width="30" height="30" alt="">
-			</a>
+			<!--a class="navbar-brand" href="#">
+				<img src="img/git-logo.png" width="30" height="30" alt="">
+			</a-->
 
 			<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
 				<ul class="navbar-nav mr-auto mt-2 mt-md-0">
@@ -65,7 +68,7 @@
 		<div id="about" class="row">
 			<div class="col-lg-4 col-lg-push-4">
 				<h3 class="mb-3">Sobre el Workshop</h3>
-				<img class="mb-1 img-fluid img-rounded hidden-xs-down" src="img/git-github.jpg">
+				<img class="mb-1 img-fluid img-rounded hidden-xs-down" src="assets/img/git-github.jpg">
 				<hr>
 				<p>
 					El objetivo de este workshop es poder enseñar los fundamentos básicos de éstas dos herramientas, cuyo uso es fundamental para el desarrollo de software, y aún mas cuando se trabaja en equipo de manera profesional o no, es necesario contar y usar un repositorio de versiones. Se realizará el dia 12 de Agosto de 9.00hs a 12.00hs, el cuál se realizará en el Consejo Profesional de Ciencias Económicas (Republica 754). Destinado a estudiantes de informática, programadores, novatos, y al público en general.
@@ -76,26 +79,34 @@
 					Inscribíte completando el siguiente formulario: 
 				</p>	
 				<a href="https://goo.gl/forms/A5LcEMuyOYkpIqv82">FORMULARIO</a><br>
-				<hr>
 			</div>
 
 			<div class="col-lg-4 col-lg-pull-4">
-				<h3 class="mb-3">Apoyan este evento</h3>
+				<h3 class="mb-3">Temario</h3>
 				<div class="list-group">
-					<a href="#" class="list-group-item"><strong>CONSEJO PROFESIONAL DE CS. ECONÓMICAS</strong></a>
-					<a href="#" class="list-group-item"><strong>CLUSTER TECNOLÓGICO DE CATAMARCA</strong></a>
-					<a href="#" class="list-group-item"><strong>COCA - COLA</strong></a>
-					<a href="#" class="list-group-item"><strong>AUTOSERVICIO AVENIDA</strong></a>
-					<a href="#" class="list-group-item"><strong>AGRUPACIÓN DE ESTUDIANTES DE SISTÉMAS E INFORMÁTICA</strong></a>
-					<a href="#" class="list-group-item"><strong>DEPARTAMENTO DE INFORMATICA</strong></a>
+					<a href="#" class="list-group-item"><strong>Introducción</strong></a>
+					<a href="#" class="list-group-item"><strong>Características de Git</strong></a>
+					<a href="#" class="list-group-item"><strong>Instalación de Git</strong></a>
+					<a href="#" class="list-group-item"><strong>Configurar Git</strong></a>
+					<a href="#" class="list-group-item"><strong>Documentación</strong></a>
+					<a href="#" class="list-group-item"><strong>Añadir archivos, status, commit</strong></a>
+					<a href="#" class="list-group-item"><strong>Usar el entorno staging</strong></a>
+					<a href="#" class="list-group-item"><strong>Ignorar archivos</strong></a>
+					<a href="#" class="list-group-item"><strong>Borrar archivos</strong></a>
+					<a href="#" class="list-group-item"><strong>Trabajar con el log</strong></a>
+					<a href="#" class="list-group-item"><strong>Usar ramas</strong></a>
+					<a href="#" class="list-group-item"><strong>Resolución de Conflictos</strong></a>
+					<a href="#" class="list-group-item"><strong>Introducción a Github</strong></a>
+					<a href="#" class="list-group-item"><strong>Subir un proyecto a Github</strong></a>
+					<a href="#" class="list-group-item"><strong>Clonar un repositorio</strong></a>
 				</div>
 			</div>
 
 			<div class="col-lg-4">
 				<h3 class="mb-3">¿Qué vas a aprender?</h3>
 				<div class="list-group">
-					<a href="#" class="list-group-item"><strong>GIT</strong>: Control de Versiones</a>
-					<a href="#" class="list-group-item"><strong>GITHUB</strong>: Control de Versiones (nube)</a>
+					<a href="#" class="list-group-item"><strong>GIT</strong> (Control de versiones)</a>
+					<a href="#" class="list-group-item"><strong>GITHUB</strong>(Plataforma de desarrollo colaborativo, utiliza GIT)</a>
 				</div>
 			</div>
 		</div>
@@ -106,26 +117,28 @@
 		<div class="row">
 			<div class="col-md-6 col-lg-6">
 				<div class="card">
-					<img class="card-img-top img-fluid" src="img/jay.png" alt="Card image cap">
+					<img class="card-img-top img-fluid" src="assets/img/jay.png" alt="Card image cap">
 					<div class="card-block">
 						<h4 class="card-title">Martín Miranda</h4>
 						<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
 							sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
 							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
 						</p>
+						<a target="_BLANK" href="http://colmenacoop.com/members/view/1/">Ver perfil</a>
 					</div>
 				</div>
 			</div>
 
 			<div class="col-md-6 col-lg-6">
 				<div class="card">
-					<img class="card-img-top img-fluid" src="img/geo.png" alt="Card image cap">
+					<img class="card-img-top img-fluid" src="assets/img/geo.png" alt="Card image cap">
 					<div class="card-block">
 						<h4 class="card-title">Sergio Casas</h4>
 						<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
 							sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 							Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
 						</p>
+						<a target="_BLANK" href="http://colmenacoop.com/members/view/3/">Ver perfil</a>
 					</div>
 				</div>
 			</div>
@@ -133,7 +146,6 @@
 
 		<!-- schedule -->
 		<h1 id="schedule" class="display-4 text-xs-center my-4 text-muted">Horario</h1>
-
 		<ul class="list-group">
 			<li class="list-group-item justify-content-between">
 				<h4 class="list-group-item-heading">Inicio 
@@ -152,12 +164,37 @@
 			</li>
 		</ul>
 
+		<h1 id="schedule" class="display-4 text-xs-center my-4 text-muted">Lugar</h1>
+		<ul class="list-group">
+			<li class="list-group-item justify-content-between">
+				<h4 class="list-group-item-heading">Consejo de Ciencias Economicas
+					<span class="badge badge-default badge-pill pull-xs-right">Auditorio - Planta baja</span></h4>
+				<small class="text-muted pull-xs-right"></small>
+			</li>
+			<li class="list-group-item justify-content-between">
+				<h4 class="list-group-item-heading">República 750 entre Salta y Tucumán
+			</li>
+		</ul>
+
+
 		<!-- callout button -->
 		<button type="button" class="btn btn-info-outline btn-lg center-block my-4" data-toggle="modal" data-target="#register">No te olvides, ¡Registrate ahora mismo!</button>
 
-		<!-- signup form -->
+		<h1 id="schedule" class="display-4 text-xs-center my-4 text-muted">Sponsors</h1>
+		<!-- Swiper -->
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide"><img src="assets/img/colmena.jpeg"></div>
+				<div class="swiper-slide"><img src="assets/img/CPCEC.jpg"></div>
+				<div class="swiper-slide"><img src="assets/img/coca-cola.jpg"></div>
+				<div class="swiper-slide"><img src="assets/img/autoservicio-avenida.jpg"></div>
+				<div class="swiper-slide"><img src="assets/img/cluster.jpg"></div>
+				<div class="swiper-slide"><img src="assets/img/facultad-tecnologia.jpg"></div>
+				<div class="swiper-slide"><img src="assets/img/aesi.jpg"></div>
+			</div>
+		</div>
+		<br>
 		<hr>
-
 		<div class="row py-2 text-muted">
 			<div class="col-md-6 col-xl-5">
 				<p><strong>Sobre Colmena Coop.</strong></p>
@@ -218,8 +255,7 @@
 							<label for="name">Nombre:</label>
 							<input type="text" class="form-control" id="name">
 						</fieldset>
-						<fieldset class="form-group
-">
+						<fieldset class="form-group">
 							<label for="mail" class="form-control-label p-l-0">Email:</label>
 							<input type="email" class="form-control form-control-danger" id="mail">
 						</fieldset>
@@ -324,9 +360,12 @@
 		</div>
 	</div>
 
-	<script src="js/tether-1.3.3/dist/js/tether.min.js"></script>
-	<script src="js/jquery.min.js"></script>
-	<script src="js/bootstrap.js"></script>
+	<script src="assets/js/tether-1.3.3/dist/js/tether.min.js"></script>
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/css/bootstrap-4/js/bootstrap.js"></script>
+	<script src="assets/js/custom.js"></script>
+	<!-- Swiper JS -->
+    <script src="assets/swipe/dist/js/swiper.min.js"></script>
 </body>
 
 </html>
